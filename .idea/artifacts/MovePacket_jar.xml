@@ -3,7 +3,6 @@
     <output-path>$PROJECT_DIR$/out/artifacts</output-path>
     <root id="archive" name="MovePacket.jar">
       <element id="module-output" name="MovePacketProject" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../XSDGenerator/lib/commons-io-2.4/commons-io-2.4.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
