@@ -5,8 +5,8 @@ package ru.sibcon;
  */
 public class MovePacketTest {
     public static void main(String[] args) {
-        String from = "G:\\Temp\\DB Scripts";
-        String to = "G:\\_archive\\20150119";
+        String from = "G:\\Temp\\DB Scripts\\";
+        String to = "G:\\Temp\\1\\";
             Boolean x = (Boolean)MovePacket.execute(from,to).get("OK");
             System.out.println("Arguments received. Moved: " +x);
     }
